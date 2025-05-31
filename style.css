@@ -65,7 +65,11 @@ img {
 }
 
 h2{
-    text-align:left;
+   text-align: center;
+    font-family: cursive;
+    color: rgba(27, 251, 7, 0);
+    font-size: 40px;
+    background-size: 80%;
 }
 
 h4{
