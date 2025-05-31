@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sondaggi</title>
+    <link rel="stylesheet" href="style.css">
+    <script language=javascript>
+var c1='#E0E4E3'
+var c2='navy'
+function colore1(){
+codice='<font color=' + c1+ '><b>RISPONDI</b></font>'
+if(document.all)
+{
+document.all('testo').innerHTML=codice;
+}
+else if(document.getElementById){
+document.getElementById("testo").innerHTML = codice
+}
+attesa = window.setTimeout("colore2()",500);
+}
+function colore2(){
+codice='<font color=' + c2 + '><b>NUOVO SONDAGGIO</b></font>'
+if(document.all)
+{
+document.all('testo').innerHTML=codice;
+}
+else if(document.getElementById){
+document.getElementById("testo").innerHTML =codice
+}
+attesa = window.setTimeout("colore1()",500)
+}
+function avvia()
+{
+attesa = window.setTimeout("colore1()",500);
+}
+</script>
+</head>
+<body OnLoad="avvia()">
+<header>  </header>
+
+<br><br>
+
+<nav>
+    <ul>
+    <li><a href= "index.html" title="home">  Home page </a></li>
+    <li><a href= "chisiamo.html"title="chi siamo">  Chi Siamo   </a></li>
+    <li><a href= "eventisettimanali.html"title="eventi">  Podcast</a></li>
+    <li><a href= "progetti.html"title="progetti">  Progetti </a></li>
+    <li><a href= "sondaggi.html"title="sondaggi">  Sondaggi </a></li>
+    <li><a href= "musica.html"title="musica">  Musica </a></li>
+    </ul>
+</nav>
+
+<br><br>
+<img src="PODCAST.jpg" width="750" height="400" > <h4  color: rgb(27, 251, 7);>🎙️ i sondaggi di Mattei On Air! 🎙️</h4><p>
+🌟🎙️I nostri podcast sono delle trasmissioni audio digitali che puoi ascoltare ovunque e in qualsiasi momento.  puoi sceglierne uno o più in base ai tuoi interessi e ascoltali quando vuoi, dal tragitto in auto, mentre fai sport o semplicemente rilassandoti a casa. Sono disponibili sulla nostra piafforma e coprono una vasta gamma di argomenti, dalla musica, alla cultura, alla tecnologia, a quello che succede a scuola molto altro. I podcast sono un modo fantastico per imparare, divertirsi e rimanere aggiornati, tutto con un semplice clic!
+        <br><br><br><br><br>
+        
+
+        ASCOLTA I NOSTRI PODCAST
+
+        <br><br>
+
+<a href="https://matteirho.sharepoint.com/:u:/s/MatteiOnAir/ERHjy9cDOKBEkOOK0I-1IQ8BoIA2gzP5FMQSQc-6r3uqLg?e=pEhnqY"  target="_blank"><br/><img src="filippo.jpg" width="200" height="200" alt="podcast"></a> 
+<a href="https://matteirho.sharepoint.com/:u:/s/MatteiOnAir/ETQqWnGb3vtDvLIr81n4M9MBK1lvgC5CtOPU-4WhVr6h8w?e=yrTatm"  target="_blank"><img src="sanremo.jpg" width="200" height="200" alt="podcast"></a> 
+<br>
+<br>
+<aside>
+
+
+
+   <div>
+	<br><br><br><br><br><br><br><br><br><br>
+
+	
+		
+			<ul>
+				<li><a href="https://www.facebook.com/itmatteirho"target="_blank">FACEBOOK<br/><img src="face.logo.jfif" alt="social network"></a></li>
+				
+                <li><a href="https://www.instagram.com/mattei_onair?igsh=OWF6N3JuMWZ0am1y"target="_blank">INSTAGRAM<br/><img src="insta.jfif" alt="social network"></a></li>
+				
+	</div>
+</aside>
+
+
+ <footer>
+    <dl>
+        <dt>CREATO DA:</dt>
+            <dd><address><a href="mattei-on-air@googlegroups.com"> Mattei on air</a></dd>
+            <dt>VIA: Padre Vaiani, 18 – 20017 – Rho (MI)</dt><br>
+            <dt> CITTA': RHO (MI) </dt><br>
+            <dt> ULTIMO AGGIORNAMENTO </dt>
+            <dd><time datetime="18-03-2025" pubdate>Martedi 18 marzo</time></dd>
+            <dd>
+    </dl>
+    <small>tutti i contenuti sono protetti dalla licenza creative</small>
+    
+</footer>
+
+    
+</body>
+</html>
